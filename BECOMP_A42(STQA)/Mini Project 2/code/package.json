@@ -1,0 +1,16 @@
+{
+  "name": "web_testing",
+  "version": "1.0.0",
+  "description": "Testing NSS blog website using Selenium WebDriver",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha Test.js --timeout 100000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  }
+}
